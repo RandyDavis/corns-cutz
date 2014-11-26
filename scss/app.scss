@@ -38,3 +38,77 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+
+/////////////////////////////////////////////
+//              PAGE STYLES
+///////////////////////////////////////////// 
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+// ------------ Loaded Fonts ----------------
+// font-family: 'Arizonia', cursive;
+// font-family: 'Playfair Display SC', serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Open Sans Condensed', sans-serif;
+// font-family: 'Roboto Slab', serif;
+// font-family: 'Raleway', sans-serif;
+
+
+
+/////////////////////////////////////////////
+//              HEADER STYLES
+///////////////////////////////////////////// 
+#header {
+  min-height: 500px;
+  background-color: $base;
+
+  h1 {
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: rgba(243, 78, 96, 1.0000);
+
+  } 
+
+  a.button {
+    margin-top: 100px;
+    border: 2px solid $oil;
+    border-radius: 12px;
+  }
+}
+
+
+
+
+
+
+/////////////////////////////////////////////
+//              NAVIGATION STYLES
+/////////////////////////////////////////////
+#header-nav ul {
+  list-style-type: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+}
+
+/////////////////////////////////////////////
+//              HERO-TEXT STYLES
+/////////////////////////////////////////////
+.hero-text-callout {
+  padding: 20px;
+}
+
+
+
+
