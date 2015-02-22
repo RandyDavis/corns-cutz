@@ -87,15 +87,22 @@ body {
 
   nav ul {
     padding-top: 10px;
-    margin: 0 auto;
+    margin: 0 auto 200px;
 
     li a {
       color: #f7f6f4;
     }
   }
 
-  h1 {
-    margin-top: 200px;
+  #hero-title {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #fff;
+    // padding-top: 200px;
+    font-size: 500%;
+  }
+
+  h2 {
+    // margin-top: 200px;
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -113,6 +120,8 @@ body {
       float: right;
       margin-left: 50%;
       margin-right: 50%;
+      color: #fff;
+      // font-size: 450%;
       // position: relative;
     }
   }
@@ -148,8 +157,8 @@ body {
 /////////////////////////////////////////////
 //              HERO-TEXT STYLES
 /////////////////////////////////////////////
-#main-hero-text {
-  border: 1px solid #f7f6f4;
+.main-hero-text {
+  border: 5px solid #f7f6f4;
 }
 
 .hero-text-callout {
