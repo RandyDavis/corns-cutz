@@ -12,6 +12,6 @@ $(function() {
   var dateNow = new Date();
   var yearNow = dateNow.getFullYear();
   var $footerDate = $('#footer');
-  $footerDate.append( "<p class='text-center'>&copy; " + yearNow + " Corn's Cutz - All Rights Reserved</p>");
+  $footerDate.after( "<p class='text-center'>&copy; " + yearNow + " Corn's Cutz - All Rights Reserved</p>");
   
 });
