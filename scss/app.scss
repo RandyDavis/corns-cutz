@@ -217,11 +217,12 @@ body {
 .hero-text-callout {
   padding: 0 20px;
   color: #f7f6f4;
-  // margin-top: 70px;
+  margin-top: 70px;
 }
 
 .hero-text-subhead {
   color: #f7f6f4;
+  margin-bottom: 40px;
 }
 
 
@@ -330,8 +331,17 @@ body {
   font-size: 120%;
 }
 
+/////////////////////////////////////////////
+//              FOOTER STYLES
+/////////////////////////////////////////////
+// .footer {
+//   position: absolute;
+//   bottom: -70px;
+// }
 
-
+.social {
+  margin: 25px 0;
+}
 
 /////////////////////////////////////////////
 //              CUSTOM MEDIA QUERIES
@@ -415,8 +425,8 @@ body {
   }
 
   .hero-text-callout {
-    padding: 40px 20px;
-    color: red;
+    padding: 0 20px;
+    color: #f7f6f4;
     // margin-top: 70px;
   }
 
