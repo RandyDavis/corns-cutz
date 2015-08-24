@@ -64,6 +64,10 @@ body {
   background-color: #b4a28f;
 }
 
+#home-info-container {
+  background-color: #b4a28f;
+}
+
 // ------------ Loaded and Noted Fonts ----------------
 // font-family: 'Arizonia', cursive;
 // font-family: 'Playfair Display SC', serif;
@@ -77,20 +81,20 @@ body {
 /////////////////////////////////////////////
 //              BG VIDEO STYLES
 ///////////////////////////////////////////// 
-video#bgvid {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: url(assets/img/brick-wall.jpeg) no-repeat;
-  background-size: cover;
-} 
+// video#bgvid {
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   min-width: 100%;
+//   min-height: 100%;
+//   width: auto;
+//   height: auto;
+//   z-index: -100;
+//   -webkit-transform: translateX(-50%) translateY(-50%);
+//   transform: translateX(-50%) translateY(-50%);
+//   background: url(assets/img/brick-wall.jpeg) no-repeat;
+//   background-size: cover;
+// } 
 
 
 // video#bgvid {
@@ -106,7 +110,13 @@ video#bgvid {
 //   background-size: cover;
 // }
 
-
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url("../assets/img/brick-wall.jpeg") no-repeat;
+  background-size: cover;
+}
 /////////////////////////////////////////////
 //              HEADER STYLES
 ///////////////////////////////////////////// 
@@ -115,7 +125,7 @@ video#bgvid {
   // background-color: $base;
   min-height: 900px;
   padding-top: 20px;
-  background: url("../assets/img/brick-wall.jpeg") no-repeat center center fixed;
+  // background: url("../assets/img/brick-wall.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -298,6 +308,9 @@ video#bgvid {
   }
 }
 
+#footerCopy {
+  margin-bottom: 0;
+}
 .social-icon {
   color: red;
   padding: 0 .4em;
@@ -448,8 +461,27 @@ video#bgvid {
     }
   }
 }
-
+/////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// SMALL //////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 @media #{$small-only} {
+  #header {
+    background: url("../assets/img/brick-wall.jpeg") no-repeat center center fixed; 
+
+    .main-hero-text {
+      min-height: 200px;
+      font-size: 40%;
+    }
+
+    #hero-title {
+      font-size: 800%;
+    }
+
+  }
+
+  #bgvid {
+    display: none;
+  }
 
   .main-hero-text {
     // box-sizing: border-box;
