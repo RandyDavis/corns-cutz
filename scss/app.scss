@@ -70,6 +70,9 @@ body {
   background-color: #b4a28f;
 }
 
+.after-content-spacer {
+  margin-top: 200px;
+}
 // ------------ Loaded and Noted Fonts ----------------
 // font-family: 'Arizonia', cursive;
 // font-family: 'Playfair Display SC', serif;
@@ -288,8 +291,9 @@ video#bgvid {
 }
 
 .addtnl-chevron {
-  margin-bottom: 35px;
+  margin-bottom: 100px;
   color: white;
+  margin-top: 100px;
 }
 
 .top-pad {
@@ -357,6 +361,16 @@ video#bgvid {
 //   padding-top: 20px;
 // }
 
+.th {
+  min-height: 190px;
+  width: 20%;
+  border: 3px solid red;
+  margin: 10px;
+
+  a img {
+    min-height: 190px;
+  }
+}
 
 
 
@@ -375,23 +389,37 @@ video#bgvid {
   p {
     color: white;
   }
+
+  .service {
+    color: white;
+    font-size: 120%;
+  }
+
+  p img {
+    margin-top: 15px;
+    min-height: 200px;
+    border: 3px solid white;
+    border-radius: 100%;
+  }
 }
 
-.service {
-  color: white;
-  font-size: 120%;
-}
 
 /////////////////////////////////////////////
 //              FOOTER STYLES
 /////////////////////////////////////////////
-// .footer {
-//   position: absolute;
-//   bottom: -70px;
-// }
-
 .social {
   margin: 25px 0;
+}
+
+
+/////////////////////////////////////////////
+//              SERVICES PAGE STYLES
+/////////////////////////////////////////////
+.services-page {
+  h3 {
+    color: white;
+    margin-top: 30px;
+  }
 }
 
 /////////////////////////////////////////////
@@ -451,6 +479,34 @@ video#bgvid {
       height: 450px;
     }
   }
+
+  #services {
+    //min-height: 450px;
+    //background-image: url("../assets/img/wood_plank_wall.jpg");
+    //background-size: cover;
+
+    //h1 {
+    //
+    //}
+
+    p {
+      color: white;
+    }
+
+    .service {
+      color: white;
+      font-size: 85%;
+    }
+
+    p img {
+      margin-top: 15px;
+      min-height: 100px;
+      border: 3px solid white;
+      border-radius: 100%;
+    }
+  }
+
+
 
   .footer {
 
@@ -528,6 +584,21 @@ video#bgvid {
       height: 300px;
     }
   }
+
+  /////////////////////////////////////////////
+  //              GALLERY PAGE GRID STYLES
+  /////////////////////////////////////////////
+  .th {
+    min-height: 130px;
+    width: 20%;
+    border: 3px solid red;
+    margin: 10px;
+
+    a img {
+      min-height: 130px;
+    }
+  }
+
 }
 
  
