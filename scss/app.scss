@@ -219,7 +219,6 @@ video#bgvid {
   font-size: 200%;
 }
 
-
 /////////////////////////////////////////////
 //              HERO STYLES (GENERAL)
 ///////////////////////////////////////////// 
@@ -511,6 +510,13 @@ video#bgvid {
   #bgvid {
     display: none;
   }
+
+  .contain-to-grid.sticky.fixed-top {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+
 
   .main-hero-text {
     border: 3px solid #f7f6f4;

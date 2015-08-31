@@ -13,7 +13,6 @@ $(function() {
       e.preventDefault();
       e.stopPropagation();
       $(".top-bar").toggleClass('expanded');
-      //$("#nav").css({"z-index": "1000"});
   });
 });
 
