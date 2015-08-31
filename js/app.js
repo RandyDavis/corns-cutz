@@ -7,6 +7,15 @@ var $contentContainer = $(".contentContainer");
 
 $contentContainer.css("min-height", windowHeight);
 
+// Menu
+$(function() {
+  $("#mobile-btn").on("click", function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $("#nav").toggleClass('expanded');
+  });
+});
+
 
 // Date Script
 $(function() {
