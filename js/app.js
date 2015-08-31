@@ -12,7 +12,8 @@ $(function() {
   $("#mobile-btn").on("click", function(e) {
       e.preventDefault();
       e.stopPropagation();
-      $("#nav").toggleClass('expanded');
+      $(".top-bar").toggleClass('expanded');
+      //$("#nav").css({"z-index": "1000"});
   });
 });
 
