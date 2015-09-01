@@ -149,10 +149,6 @@ video#bgvid {
 }
 
 
-
-
-
-
 /////////////////////////////////////////////
 //              NAVIGATION STYLES
 /////////////////////////////////////////////
@@ -167,20 +163,20 @@ video#bgvid {
     li {
       display: inline-block;
       padding: 10px 20px;
-      font-size: 1.2em;
+      font-size: 1.1em;
       font-weight: bold;
 
       a {
         font-size: 150%;
-        border: 1px solid white;
+        border: 3px solid white;
         border-radius: 25px;
         padding: 12px;
       }
 
       a:hover {
         position: relative;
-        top: -1px;
-        border: 1px solid red;
+        //top: -1px;
+        border: 3px solid red;
       }
     }
   }
@@ -375,7 +371,7 @@ video#bgvid {
 
   p img {
     margin-top: 15px;
-    min-height: 200px;
+    min-height: 240px;
     border: 3px solid white;
     border-radius: 100%;
   }
@@ -408,38 +404,38 @@ video#bgvid {
    }
  }
 
-/////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 //              CUSTOM MEDIA QUERIES
-/////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 @media #{$small-up} {
-  #header-nav {
-    height: 150px;
-
-    ul {
-    list-style-type: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-
-      li {
-        display: inline-block;
-        padding: 10px 10px;
-        font-size: .95em;
-        font-weight: bold;
-
-        a {
-          border: 3px solid white;
-          border-radius: 25px;
-          padding: 12px;
-        }
-
-        a:hover {
-          position: relative;
-          top: -1px;
-          border: 3px solid red;
-        }
-      }
-    }
-  }
+  //#header-nav {
+  //  height: 150px;
+  //
+  //  ul {
+  //  list-style-type: none;
+  //  font-family: 'Roboto Condensed', sans-serif;
+  //  font-weight: 300;
+  //
+  //    li {
+  //      display: inline-block;
+  //      padding: 10px 10px;
+  //      font-size: .65em;
+  //      font-weight: bold;
+  //
+  //      a {
+  //        border: 3px solid white;
+  //        border-radius: 25px;
+  //        padding: 12px;
+  //      }
+  //
+  //      a:hover {
+  //        position: relative;
+  //        top: -1px;
+  //        border: 3px solid red;
+  //      }
+  //    }
+  //  }
+  //}
 
   .hero-spacer {
     padding: 5px;
@@ -465,6 +461,31 @@ video#bgvid {
       height: 450px;
     }
   }
+
+  /////////////////////////////////////////////
+  //              SERVICES SECTION STYLES
+  /////////////////////////////////////////////
+
+  #services {
+
+    p {
+      color: white;
+    }
+
+    .service {
+      color: white;
+      font-size: 150%;
+      min-height: 40px;
+    }
+
+    p img {
+      margin-top: 15px;
+      min-height: 240px;
+      border: 3px solid white;
+      border-radius: 100%;
+    }
+  }
+
 
   .footer {
 
@@ -509,6 +530,35 @@ video#bgvid {
 
   #bgvid {
     display: none;
+  }
+
+  #header-nav {
+    height: 150px;
+
+    ul {
+      list-style-type: none;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 300;
+
+      li {
+        display: inline-block;
+        padding: 10px 10px;
+        font-size: .5em;
+        font-weight: bold;
+
+        a {
+          border: 3px solid white;
+          border-radius: 25px;
+          padding: 12px;
+        }
+
+        a:hover {
+          position: relative;
+          top: -1px;
+          border: 3px solid red;
+        }
+      }
+    }
   }
 
   .contain-to-grid.sticky.fixed-top {
@@ -575,6 +625,7 @@ video#bgvid {
     .service {
       color: white;
       font-size: 85%;
+      min-height: 40px;
     }
 
     p img {
@@ -606,14 +657,18 @@ video#bgvid {
   /////////////////////////////////////////////
   //              GALLERY PAGE GRID STYLES
   /////////////////////////////////////////////
-  .th {
-    min-height: 130px;
-    width: 20%;
-    border: 3px solid #0AA5FF;
-    margin: 10px;
+  .thumb-spacer {
+    margin: 0 .5em;
 
-    a img {
+    .th {
       min-height: 130px;
+      width: 30%;
+      border: 3px solid #0AA5FF;
+      margin: 10px .25em;
+
+      a img {
+        min-height: 130px;
+      }
     }
   }
 
