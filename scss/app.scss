@@ -408,34 +408,6 @@ video#bgvid {
 //              CUSTOM MEDIA QUERIES
 //////////////////////////////////////////////////////////////////////////////
 @media #{$small-up} {
-  //#header-nav {
-  //  height: 150px;
-  //
-  //  ul {
-  //  list-style-type: none;
-  //  font-family: 'Roboto Condensed', sans-serif;
-  //  font-weight: 300;
-  //
-  //    li {
-  //      display: inline-block;
-  //      padding: 10px 10px;
-  //      font-size: .65em;
-  //      font-weight: bold;
-  //
-  //      a {
-  //        border: 3px solid white;
-  //        border-radius: 25px;
-  //        padding: 12px;
-  //      }
-  //
-  //      a:hover {
-  //        position: relative;
-  //        top: -1px;
-  //        border: 3px solid red;
-  //      }
-  //    }
-  //  }
-  //}
 
   .hero-spacer {
     padding: 5px;
@@ -610,6 +582,11 @@ video#bgvid {
       width: 100%;
       height: 300px;
     }
+  }
+
+  .social-icon {
+    color: red;
+    padding: 0 .2em;
   }
 
   /////////////////////////////////////////////
