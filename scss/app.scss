@@ -336,14 +336,13 @@ video#bgvid {
 /////////////////////////////////////////////
 
 .th {
-  min-height: 195px;
-  //width: 31.2%;
-  width: 20%;
+  width: 31.2%;
   border: 3px solid #0AA5FF;
   margin: 10px;
 
   a img {
-    min-height: 190px;
+    height: 175px;
+    width: 100%;
   }
 }
 
