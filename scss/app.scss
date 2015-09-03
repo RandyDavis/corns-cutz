@@ -529,9 +529,21 @@ video#bgvid {
     }
   }
 
+
+  #main-hero-text {
+    border: 10px double #f7f6f4;
+    font-size: 35%;
+    border-radius: 5px;
+    height: 250px;
+    width: 90%;
+    h2 {
+      font-size: 250%;
+    }
+  }
+
   #down-chevron {
     position: relative;
-    top: 35px;
+    top: 10px;
     left: 15px;
   }
 
@@ -542,16 +554,6 @@ video#bgvid {
   }
 
 
-  #main-hero-text {
-    border: 10px double #f7f6f4;
-    font-size: 35%;
-    border-radius: 5px;
-    max-width: 31.5em;
-    
-    h2 {
-      font-size: 250%;
-    }
-  }
 
   #hero-slider {
     margin-top: -10px;
