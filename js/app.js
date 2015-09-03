@@ -7,6 +7,22 @@ var $contentContainer = $(".contentContainer");
 
 $contentContainer.css("min-height", windowHeight);
 
+
+//// Down Nav Arrow
+//$(function() {
+//    var $heroText = $("#main-hero-text");
+//    var $downArrow = $("a#down-chevron");
+//
+//    //$heroText.append($downArrow).css({
+//    //    "marginTop": "100px",
+//    //    "position": "relative",
+//    //    "top": "150px",
+//    //    "left": "25px",
+//    //    //"color": "white"
+//    //
+//    //});;
+//});
+
 // Menu
 $(function() {
   $("#mobile-btn").on("click", function(e) {
